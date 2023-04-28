@@ -14,5 +14,4 @@ public class Test_1064 {
         System.out.println(min);
 
     }
-
 }
