@@ -5,8 +5,13 @@ public class Test_1072 {
     public static void main(String[] args) {
         java.util.Scanner scanner = new Scanner(System.in);
 
+        int num_1 = scanner.nextInt();
+
         while (true){
             int num = scanner.nextInt();
+            if(num_1==num){
+                break;
+            }
             System.out.println(num);
         }
 
