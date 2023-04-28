@@ -9,10 +9,6 @@ public class Test_1065 {
         int num_2 = scanner.nextInt();
         int num_3 = scanner.nextInt();
 
-        int a = 0;
-        int b = 0;
-        int c = 0;
-
         if(num_1%2==0){
             System.out.println(num_1);
         }
