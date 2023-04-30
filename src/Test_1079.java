@@ -15,6 +15,5 @@ public class Test_1079 {
                 System.out.println(c);
             }
         }
-
     }
 }
