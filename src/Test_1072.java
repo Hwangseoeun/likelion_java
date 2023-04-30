@@ -5,14 +5,11 @@ public class Test_1072 {
     public static void main(String[] args) {
         java.util.Scanner scanner = new Scanner(System.in);
 
-        int num_1 = scanner.nextInt();
+        int num = scanner.nextInt();
 
-        while (true){
-            int num = scanner.nextInt();
-            if(num_1==num){
-                break;
-            }
-            System.out.println(num);
+        for(int i=1;i<=num;i++){
+            int num_1 = scanner.nextInt();
+            System.out.println(num_1);
         }
 
     }
